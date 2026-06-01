@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Artemid Labs">
+  <rect width="96" height="96" rx="24" fill="#12120F"/>
+  <path fill="#F8F7F2" d="M17 71 41 21h13l24 50H61l-4-10H37l-4 10H17Zm25-23h10l-5-13h-.5L42 48Z"/>
+  <path fill="#F8F7F2" d="M59 21h14v50H59V21Z" opacity=".32"/>
+</svg>
