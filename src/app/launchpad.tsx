@@ -6,39 +6,15 @@ import { useRef, type CSSProperties } from "react";
 const apps = [
   {
     name: "Statera",
-    subtitle: "Eurostat Insights",
+    subtitle: "Market intelligence",
     href: "https://eurostat-insights.vercel.app/",
     icon: "/apps/statera.png",
   },
   {
     name: "Agentix",
-    subtitle: "Agent orchestration",
+    subtitle: "Agent operating layer",
     href: "https://agentix-gilt.vercel.app/",
     icon: "/apps/agentix.svg",
-  },
-  {
-    name: "Xinori_OS",
-    subtitle: "Crossover OS",
-    href: "https://xinori-os-v2.vercel.app/",
-    icon: "/apps/xinori.svg",
-  },
-  {
-    name: "Xinori",
-    subtitle: "Intelligence",
-    href: "https://xinori-intelligence-v2.vercel.app/",
-    icon: "/apps/xinori.svg",
-  },
-  {
-    name: "Voxel Quest",
-    subtitle: "Loyalty game",
-    href: "https://voxel-quest.vercel.app/",
-    icon: "/apps/voxel-quest.svg",
-  },
-  {
-    name: "The Coop",
-    subtitle: "Rewards",
-    href: "https://the-coop-psi.vercel.app/",
-    icon: "/apps/the-coop.png",
   },
 ];
 
@@ -95,6 +71,11 @@ export function Launchpad() {
       <span className="corner corner-ne" aria-hidden="true" />
       <span className="corner corner-sw" aria-hidden="true" />
       <span className="corner corner-se" aria-hidden="true" />
+
+      <div className="launchpad-head">
+        <span>Selected systems</span>
+        <span>02</span>
+      </div>
 
       <div className="launchpad-grid">
         {apps.map((app, index) => (

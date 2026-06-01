@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Artemid Labs",
-  description: "Artemid Labs launchpad.",
+  description: "Artemid Labs builds precise operational interfaces and agent systems.",
   icons: {
     icon: "/artemid-icon.svg",
   },
