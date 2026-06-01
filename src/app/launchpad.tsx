@@ -20,7 +20,7 @@ const apps = [
     name: "Xinori_OS",
     subtitle: "Crossover OS",
     href: "https://xinori-os-v2.vercel.app/",
-    icon: "/apps/xinori-os.png",
+    icon: "/apps/xinori.svg",
   },
   {
     name: "Xinori",
