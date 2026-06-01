@@ -16,6 +16,30 @@ const apps = [
     href: "https://agentix-gilt.vercel.app/",
     icon: "/apps/agentix.svg",
   },
+  {
+    name: "Xinori_OS",
+    subtitle: "Crossover OS",
+    href: "https://xinori-os-v2.vercel.app/",
+    icon: "/apps/xinori-os.png",
+  },
+  {
+    name: "Xinori",
+    subtitle: "Intelligence",
+    href: "https://xinori-intelligence-v2.vercel.app/",
+    icon: "/apps/xinori.svg",
+  },
+  {
+    name: "Voxel Quest",
+    subtitle: "Loyalty game",
+    href: "https://voxel-quest.vercel.app/",
+    icon: "/apps/voxel-quest.svg",
+  },
+  {
+    name: "The Coop",
+    subtitle: "Rewards",
+    href: "https://the-coop-psi.vercel.app/",
+    icon: "/apps/the-coop.png",
+  },
 ];
 
 type TileStyle = CSSProperties & {
