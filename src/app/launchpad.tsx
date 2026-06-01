@@ -8,8 +8,13 @@ const apps = [
     name: "Statera",
     subtitle: "Eurostat Insights",
     href: "https://eurostat-insights.vercel.app/",
-    status: "Live",
     icon: "/apps/statera.png",
+  },
+  {
+    name: "Agentix",
+    subtitle: "Agent orchestration",
+    href: "https://agentix-gilt.vercel.app/",
+    icon: "/apps/agentix.svg",
   },
 ];
 
@@ -91,7 +96,6 @@ export function Launchpad() {
             </span>
             <span className="app-title">{app.name}</span>
             <span className="app-subtitle">{app.subtitle}</span>
-            <span className="app-status">{app.status}</span>
           </a>
         ))}
       </div>
